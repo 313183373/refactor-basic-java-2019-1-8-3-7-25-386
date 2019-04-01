@@ -3,7 +3,7 @@ package practice3;
 import java.math.BigDecimal;
 
 class PriceCalculator {
-    private Order order;
+    private final Order order;
 
     public PriceCalculator(Order order) {
         this.order = order;
